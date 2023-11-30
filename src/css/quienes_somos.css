@@ -1,0 +1,207 @@
+
+.about h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: var(--font-primary);
+    margin: 10px 0;
+  }
+  
+  @media (min-width: 991px) {
+    .about h2 {
+      max-width: 65%;
+      margin: 0 0 60px 0;
+    }
+  }
+  
+  .about .our-story {
+    padding: 0;
+  
+  }
+  
+  @media (min-width: 991px) {
+    .about .our-story {
+      padding-right: 5%;
+    }
+  }
+  
+  .about .our-story h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #838893;
+  }
+  
+  .about .our-story h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--color-secondary);
+  }
+
+  @media (min-width: 375px) {
+  .about .our-story h3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+  .about .our-story p {
+    text-align: justify;
+  }
+  
+  .about .our-story p:last-child {
+    margin-bottom: 0;
+    text-align: justify;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+  }
+  
+  .about ul li {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about ul i {
+    font-size: 20px;
+    margin-right: 4px;
+    color: var(--color-primary);
+  }
+  
+  .about .watch-video i {
+    font-size: 32px;
+    transition: 0.3s;
+    color: var(--color-primary);
+  }
+  
+  .about .watch-video a {
+    font-weight: 600;
+    color: var(--color-secondary);
+    margin-left: 8px;
+    transition: 0.3s;
+  }
+  
+  .about .watch-video:hover a {
+    color: var(--color-primary);
+  }
+  
+  .about .about-img {
+    min-height: 650px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @media (min-width: 992px) {
+    .about .about-img {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+/*Principios*/
+
+  .principios .img-bg {
+    background-size: cover;
+    background-position: center center;
+    min-height: 400px;
+  }
+  
+  @media (max-width: 575px) {
+    .principios .img-bg {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .principios .img-bg {
+      display: none;
+    }
+  }
+  
+  
+  
+  .principios h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+  @media (min-width: 375px) {
+  .principios h3 {
+    margin-top: 20px;
+  }
+}
+
+
+
+  
+  .principios h3:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--color-primary);
+    left: 0;
+    bottom: 0;
+  }
+  
+  .principios .icon-box {
+    margin-top: 50px;
+  }
+
+  @media (min-width: 375px) {
+    .principios .icon-box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
+  
+  .principios .icon-box i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    margin-right: 25px;
+    font-size: 28px;
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+    line-height: 0;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    transition: 0.3s;
+  }
+  
+  .principios .icon-box:hover i {
+    background-color: var(--color-primary);
+    color: #fff;
+  }
+  
+  .principios .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .principios .icon-box h4 a {
+    color: #000;
+    transition: 0.3s;
+  }
+  
+  .principios .icon-box h4 a:hover {
+    color: var(--color-primary);
+  }
+  
+  .principios .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: justify;
+  }

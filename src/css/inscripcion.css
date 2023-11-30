@@ -1,0 +1,125 @@
+
+  /*--------------------------------------------------------------
+# Proceso Section
+--------------------------------------------------------------*/
+.proceso .img-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+
+
+  }
+
+  .proceso h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: var(--font-primary);
+    margin: 20px 0;
+    text-align: center;
+    color: var(--color-secondary);
+  }
+
+
+  .proceso .proceso_principal{
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  @media (min-width: 991px) {
+    .proceso h2 {
+      margin: 60px 0 20px 0;
+    }
+  }
+  
+  .proceso h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-secondary);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .proceso h3:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--color-primary);
+    left: 0;
+    bottom: 0;
+  }
+  
+  .proceso .icon-box {
+    margin-top: 50px;
+  }
+  
+  .proceso .icon-box i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    font-size: 28px;
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+    line-height: 0;
+    /*box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
+    background-color: #fff;*/
+  }
+  
+
+  .proceso .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: var(--color-secondary);
+  }
+  
+  .proceso .icon-box h4 a {
+    color: #000;
+    transition: 0.3s;
+    
+  }
+  
+  .proceso .icon-box h4 a:hover {
+    color: var(--color-primary);
+  }
+  
+  .proceso .icon-box p ul li {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: justify;
+  }
+
+  .proceso .icon-box ul {
+    list-style-type:disc;
+  }
+
+  .proceso .icon-box ul li {
+    margin-bottom: 10px;
+   
+    
+  }
+
+  .proceso .proceso-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+  
+  .proceso .proceso-btn:hover {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #fff;
+  }

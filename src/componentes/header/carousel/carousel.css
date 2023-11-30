@@ -1,0 +1,157 @@
+ 
+  
+  video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    
+  }
+  
+  @media  (max-width: 768px) {
+    video {
+      min-height: 70vh; 
+      
+  }
+  
+  
+  }
+  
+  .carousel {
+    width: 100%;
+    min-height: 100vh;
+    padding: 85px 0;
+    margin: 0;
+    overflow: hidden;
+    
+  }
+  
+  .carousel .carousel-inner   {
+    position: absolute;
+  
+  }
+
+  
+  .carousel .carousel-item{
+    max-width: 100%;
+  }
+
+
+  .carousel .carousel-item img{
+    width: 100vw;
+    max-height: 100vh;
+    inset: 0;
+    object-fit: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+    transition-duration: 0.4s;
+    
+  }
+  
+
+  @media  (max-width: 768px) {
+    .carousel .carousel-item img{
+      min-height: 70vh; 
+  
+    }   
+  }
+  
+
+
+
+  .carousel .carousel-indicators button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid;
+    background: none;
+    border-color: white;
+  }
+
+  .carousel .carousel-indicators button.active{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: white;
+    background: white;
+
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    opacity: 0.8;
+  }
+
+
+  
+  
+
+
+
+/*
+  .carousel-control-prev {
+    justify-content: start;
+    
+  }
+  
+  @media (min-width: 640px) {
+    .carousel-control-prev {
+      padding-left: 45px;
+  
+    }
+  }
+  
+  .carousel-control-next {
+    justify-content: end;
+  }
+  
+  @media (min-width: 640px) {
+    .carousel-control-next {
+      padding-right: 45px;
+  
+    }
+  }
+   
+  
+  .carousel .carousel-control-next-icon,
+  .carousel .carousel-control-prev-icon {
+    background: none;
+    font-size: 26px;
+    line-height: 0;
+    background: rgba(0 , 0, 0, 0.4);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .carousel .carousel-control-prev,
+  .carousel .carousel-control-next {
+    z-index: 3;
+    transition: 0.3s;
+  }
+  
+  .carousel .carousel-control-prev:focus,
+  .carousel .carousel-control-next:focus {
+    opacity: 0.5;
+  }
+  
+  .carousel .carousel-control-prev:hover,
+  .carousel .carousel-control-next:hover {
+    opacity: 0.9;
+  }
+  
+  @media (min-width: 640px) {
+  .carousel .carousel-control-next-icon,
+  .carousel .carousel-control-prev-icon {
+    font-size: 24px;
+    width: 34px;
+    height: 34px;
+  
+  }
+  }*/
