@@ -84,38 +84,9 @@ const Header = () => {
             </ul>
           </li>
 
-          <li className="dropdown" onClick={toggleDropdown}><Link to="#" onClick={ScrollToTop}><span>Admisiones</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
-            <ul>
-              <li onClick={handleNavlinkClick}><Link to="/construccion" onClick={ScrollToTop}>Proceso de Inscripción</Link></li>
-              <li onClick={handleNavlinkClick}><Link to="/construccion" onClick={ScrollToTop}>Financiamento</Link></li>
-            </ul>
-          </li>
+          <li onClick={handleNavlinkClick} ><a href="/construccion" target="_blank" >Campus</a></li>
 
-          <li className="dropdown" onClick={toggleDropdown}><Link to="#" onClick={ScrollToTop}><span>Proyección Social</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
-            <ul>
-              <li className="dropdown" onClick={toggleDropdown}><Link to="/construccion" onClick={ScrollToTop}><span>Egresados</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
-                <ul>
-                  <li><a href="/construccion"onClick={toggleDropdown}>Egresados</a></li>
-                  <li><a href="/construccion"onClick={toggleDropdown}>Noticias para Egresados</a></li>
-                </ul>
-              </li>
-              <li><a href="/construccion">Prácticas</a></li>
-            </ul>
-          </li>
-
-          <li onClick={handleNavlinkClick}><Link to="/construccion"onClick={ScrollToTop}><span>Investigación</span></Link></li>
-
-          <li className="dropdown" onClick={toggleDropdown}><Link to="#"><span>Horizontista</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
-            <ul>
-              <li onClick={handleNavlinkClick}><a href="/construccion"onClick={toggleDropdown}>Bienestar Universitario</a></li>
-              <li onClick={handleNavlinkClick}><a href="/construccion"onClick={toggleDropdown}>Biblioteca</a></li>
-              <li onClick={handleNavlinkClick}><Link to="/construccion" target="_blank">Solicitudes Institucionales</Link></li>
-            </ul>
-          </li>
-
-          <li onClick={handleNavlinkClick} ><a href="/construccion" target="_blank" >Campus Virtual</a></li>
-
-          <li onClick={handleNavlinkClick} ><Link to="/construccion" target="_blank">Sistema Académico</Link></li>         
+          <li onClick={handleNavlinkClick} ><Link to="/construccion" target="_blank">Sistema</Link></li>         
 
         </ul>
       </nav>

@@ -117,12 +117,6 @@ section {
     width: 0px;
   }
 }
-
-
-
-
-
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -136,9 +130,6 @@ section {
   background-position: 50% 30%;
   background-repeat: no-repeat;
 }
-
-
-
 
 .breadcrumbs h2 {
   font-size: 56px;
@@ -245,7 +236,7 @@ section {
   right: 0;
   transition: all 0.5s;
   z-index: 1000;
-  background: rgba(0, 55, 108, 1);
+  background: rgb(143, 95, 240);
 }
 
 

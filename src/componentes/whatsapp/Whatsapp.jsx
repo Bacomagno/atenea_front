@@ -11,9 +11,7 @@ const Whatsapp = () => {
     } else {
       setScrollActive(false);
     }
-  };
-
- 
+  }; 
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -22,11 +20,10 @@ const Whatsapp = () => {
       window.removeEventListener('scroll', handleScroll);
     };
     
-  }, []);
-  
+  }, []);  
 
     return(
-        <a href="https://api.whatsapp.com/send?phone=573219208288&text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20..." 
+        <a href="/construccion" 
         className={`scroll-top ${scrollActive ? 'active' : ''}`}
         target="_blank"><img src={whatsapp} alt="whatsapp" name="whatsapp"/></a>
     )

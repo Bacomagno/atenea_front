@@ -24,7 +24,7 @@ const Footer = () =>{
             <div className="footer-info">
               <img src={logo} alt="" width="50%" style={{marginbbottom: '20px'}}/>
               <p>
-                Calle 69 # 14 – 30 Alcazares<br/>
+                Calle del mejor sitio de Bogotá<br/>
                 Bogotá<br/>
 
               </p>
@@ -59,8 +59,8 @@ const Footer = () =>{
           <div className="col-lg-2 col-md-3 footer-links">
             <h4>Links de Importancia</h4>
             <ul>
-              <li><Link to="/construccion">Sistema Académico</Link></li>
-              <li><Link to="/construccion">Correo Unihorizonte</Link></li>
+              <li><Link to="/construccion">Sistema</Link></li>
+              <li><Link to="/construccion">Correo</Link></li>
               <li><Link to="/construccion">Pagos por Pse</Link></li>
             </ul>
           </div>

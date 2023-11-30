@@ -1,11 +1,10 @@
 import React from "react";
-import bannerpre from '../../../img/cursos/banner-prei-02.jpg';
 import './tallerAtenea.css';
 
 const tallerAtenea = () =>{
     return(
       <>
-        <section id="tallerAtenea" className="tallerAtenea">
+        <section id="tallerAtenea" className="tallerAtenea col-lg-10 col-md-10 mx-auto">
           <div id="punto4">
             <h2 className="azul">Soy Azul</h2>
             <h2 className="rojo">Soy Rojo</h2>
@@ -48,6 +47,7 @@ const tallerAtenea = () =>{
                   <th>Edad</th>
                   <th>Peso</th>
                 </tr>
+              </thead>
                 <tbody>
                   <tr>
                     <td>40</td>
@@ -65,7 +65,6 @@ const tallerAtenea = () =>{
                     </td>
                   </tr>
                 </tbody>
-              </thead>
             </table>
           </div>
         </section>
